@@ -3,16 +3,27 @@
   align-items: center;
   justify-content: center;
   width: 100%;
+  background-color: pink;
 }
 
 .dotsClass {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
   width: 80%;
-  background-color: aliceblue;
+  margin-top: 20px;
 }
 
 .slider-content-con {
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
-  background-color: aqua;
+  background-color: red;
+}
+
+.carousel-image {
+  width: 250px;
+  height: 250px;
 }
