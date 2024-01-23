@@ -1,0 +1,38 @@
+.con {
+  background-color: #0b69ff;
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+.content-con {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+  width: 90%;
+  color: #ffffff;
+}
+
+.teeth-image {
+  width: 120px;
+  height: 50px;
+}
+
+.para {
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 20px;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.header-con {
+  display: flex;
+  width: 40%;
+  justify-content: space-around;
+  align-items: center;
+}
