@@ -1,9 +1,10 @@
 .slider-container {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 100%;
-  background-color: pink;
+  min-height: 150vh;
 }
 
 .dotsClass {
@@ -15,15 +16,169 @@
   margin-top: 20px;
 }
 
-.slider-content-con {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  background-color: red;
+.carousel-image {
+  width: 450px;
+  height: 450px;
 }
 
-.carousel-image {
-  width: 250px;
-  height: 250px;
+.home-head-con {
+  display: flex;
+  width: 80%;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.our-first-con {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 30%;
+  background-color: #1196cc;
+  height: 300px;
+  margin-left: 3px;
+  margin-right: 3px;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.our-second-con {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 30%;
+  background-color: #152d60;
+  height: 300px;
+  margin-left: 3px;
+  margin-right: 3px;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.about-button {
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 20px;
+  padding-left: 7px;
+  padding-right: 7px;
+  background: transparent;
+  cursor: pointer;
+}
+
+.para-con1 {
+  font-size: 20px;
+  font-family: "Roboto";
+  font-weight: normal;
+  color: #ffffff;
+}
+
+.para-con2 {
+  font-size: 15px;
+  font-family: "Roboto";
+  font-weight: normal;
+  color: #ffffff;
+}
+
+.background-image1 {
+  background-image: url("https://img.freepik.com/free-photo/photo-smiling-dentist-standing-with-arms-crossed-with-her-colleague-showing-okay-sign_496169-1043.jpg");
+  background-size: cover;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.back-content-con {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.back-content-con2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 50%;
+}
+.background-image2 {
+  background-image: url("https://www.shutterstock.com/image-photo/dentist-mirror-woman-check-smile-600nw-2308801975.jpg");
+  background-size: cover;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.background-image3 {
+  background-image: url("https://www.shutterstock.com/image-photo/dentist-holding-educational-model-dental-260nw-2241502389.jpg");
+  background-size: cover;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.background-image4 {
+  background-image: url("https://www.shutterstock.com/image-photo/orthodontist-conducts-consultation-on-dental-260nw-2125609112.jpg");
+  background-size: cover;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.back-content-para1-con {
+  color: #ffffff;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.back-content-para1-con2 {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.back-button-con {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+  cursor: pointer;
+}
+
+.back-read-more-btn {
+  background-color: #1196cc;
+  color: #ffffff;
+  padding: 9px;
+  font-size: 20px;
+  font-weight: bold;
+  border: 1px solid #1196cc;
+  cursor: pointer;
+}
+
+.slick-prev,
+.slick-next {
+  color: #ffffff;
+  background-color: #3498db;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.slick-prev:hover,
+.slick-next:hover {
+  color: #ffffff;
+  background-color: #2c3e50;
+}
+
+.span-con {
+  color: #1196cc;
+  font-size: 20px;
+  font-family: "Roboto";
+  font-weight: bold;
 }
