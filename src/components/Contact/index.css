@@ -1,0 +1,81 @@
+.contact-con {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+}
+
+.fir-con-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+}
+
+.contact-para {
+  font-size: 20px;
+  color: black;
+  font-family: "Roboto";
+}
+
+.contact-span {
+  font-weight: 300;
+  font-family: "Roboto";
+  font-size: 17px;
+  color: #1196cc;
+}
+
+.sec-con-contact {
+  display: flex;
+  width: 60%;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.form-con {
+  display: flex;
+  width: 60%;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+}
+
+.name-con {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  margin-top: 9px;
+}
+
+.input {
+  border: 1px solid #202020;
+  outline: none;
+}
+
+.send-mes-btn {
+  color: #ffffff;
+  background-color: #1196cc;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 15px;
+  border: 1px solid #1196cc;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.message-con {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 4px;
+  width: 80%;
+}
+
+.message-input {
+  width: 100%;
+  height: 300px;
+}
